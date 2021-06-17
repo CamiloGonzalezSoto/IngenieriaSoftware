@@ -45,6 +45,62 @@ body {
 background-color:antiquewhite;
 }
 
+.forum-Registro{
+  margin: auto;
+  margin-top: 100px;
+  padding: 50px;
+  box-sizing:  border-box;
+  width: 1500px;
+  background: #24303c;
+  border-radius: 10px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.forum-Registro h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.Control {
+
+   width: 100%;
+   padding: 10px;
+   border-radius: 4px;
+   background: #24303c; 
+   margin-bottom: 16px;
+   border: 1px solid #1f53c5;
+   font-family: 'calibri';
+   font-size: 18px;
+}
+
+.forum-Registro p {
+   height: 40px;
+   text-align: center;
+   font-size: 18px;
+   line-height: 40px;
+  }
+
+.forum-Registro a {
+   color: white;
+text-decoration: none;
+  }
+
+  .forum-Registro a:hover {
+      color: white;
+  text-decoration: underline;
+     }
+  
+.forum-Registro .Boton{
+width: 100%;
+background: #1f53c5;
+border: none;
+padding: 12px;
+color: white;
+margin: 16px 0;
+font-size: 16px;
+}
 
 .textoabuelos {
   margin: auto;
