@@ -17,7 +17,6 @@
     </div>
     <div class="container-fluid">
             <header>
-                
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,30 +47,38 @@
                                 </ul>
                             </li>
                         </ul>
-                    </div>
+                   
                 </nav>
+                  </div>
+    
             </header>
+
             <section class="forum-Registro">
                 <body class=" fondo-Registro "></body>
-                <h4>Formulario Registro</h4>
-                <div class="container contacto">
-                  <form method="POST" action="" id="formulario">
+           
+          <h2 class="font-weight-light text-center text-lg-left mt-4 mb-0">REGISTRO DE USUARIO</h2>
+          <div  class="container contacto1">
+          <hr class="mt-2 mb-5">
+         <form class="px-5 pb-5" onsubmit="alert('Usuario registrado con éxito.')">
+         <div class="mb-3">
+                
+                 <label form method="POST" action="" id="formulario">
                   {% csrf_token  %}
                   <div>
                     {{ form | crispy}}
                   </div>
                   {{ mensaje }}
-                  <input type="submit" id="enviar" value="enviar">
+                  <input type="submit" id="enviar" value="Registrar">
                 </form>
                 <div class="alert alert-success" role="alert">
                   {{mensaje}}
               </div>
-              <a class="nav-link" href="{% url 'index' %}">volver</a>
+              <a class="nav-link" href="{% url 'index' %}">Volver al inicio</a>
               </div>
-                                 
+                       <hr class="mt-2 mb-5">          
             
-            
-                            </div>
+            </div>
+        
          
         </div>
         <div class="col-md-1"></div>
@@ -85,7 +92,7 @@
                     <p class="correo-contacto">fundacionapoyo@gmail.com</p>
                 </div>
                 <div class="col-md-4">
-                    <p class="Ubicacion">UBICACION </p>
+                    <p class="Ubicacion">UBICACIÓN </p>
                     <p><span class="titulo-localizacion"> Avenida Antonio Varas 2410, Providencia</span></p>
                 </div>
 
