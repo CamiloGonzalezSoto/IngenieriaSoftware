@@ -43,7 +43,7 @@ def signUp(request):
         formulario = signUpform(request.POST)
         if formulario.is_valid:
             formulario.save()
-            data["mensaje"]="Éxito  "
+            data["mensaje"]="Registro exitoso  "
 
         else:
             data["form"]=formulario  

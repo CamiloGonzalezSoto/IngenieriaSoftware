@@ -45,23 +45,26 @@ body {
 background-color:antiquewhite;
 }
 
+.linea {
+  color: #740a4b;
+}
+
 .forum-Registro{
   margin: auto;
+  min-width: 600;
   margin-top: 100px;
   padding: 50px;
   box-sizing:  border-box;
   width: 1500px;
-  background: #24303c;
   border-radius: 10px;
   font-family: 'calibri';
-  color: white;
-  box-shadow: 7px 13px 37px #000;
+  color: rgb(12, 11, 11);
+  box-shadow: 7px 13px 37px rgb(180, 19, 19);
+
+  text-align: center 
+
 }
 
-.forum-Registro h4 {
-  font-size: 22px;
-  margin-bottom: 20px;
-}
 
 .Control {
 
@@ -75,29 +78,32 @@ background-color:antiquewhite;
    font-size: 18px;
 }
 
+
+
 .forum-Registro p {
    height: 40px;
    text-align: center;
    font-size: 18px;
    line-height: 40px;
+  color: aqua;
   }
 
 .forum-Registro a {
-   color: white;
+   color: rgb(16, 56, 189);
 text-decoration: none;
   }
 
   .forum-Registro a:hover {
-      color: white;
+      color: rgb(47, 22, 156);
   text-decoration: underline;
      }
   
-.forum-Registro .Boton{
+.forum-Registro.Boton{
 width: 100%;
-background: #1f53c5;
+background: #0a7421;
 border: none;
 padding: 12px;
-color: white;
+color: rgb(51, 9, 9);
 margin: 16px 0;
 font-size: 16px;
 }
@@ -149,13 +155,21 @@ font-size: 16px;
     font-size: 500;
   }
   
+  .contacto1{
+    color: rgb(201, 29, 29);
+    font-size: 20px;
+    margin-top: 35px;
+    font-weight: 900;
+    Min-width: 500px;  
+  }
+  
   .contacto{
-    color: #fff;
+    color: rgb(201, 29, 29);
     font-size: 20px;
     margin-top: 35px;
     font-weight: 700;
   }
-  
+
   .titulo-contacto{
     color: #fff;
   }
@@ -165,23 +179,23 @@ font-size: 16px;
   }
   
   .Ubicacion{
-    color: #fff;
+    color: rgb(201, 29, 29);
     font-size: 20px;
     margin-top: 35px;
     font-weight: 700;
   }
   #localizacion{
-    color:white;
+    color:rgb(201, 29, 29);
     font-size: 25px;
   }
   
   
   .titulo-localizacion{
-    color: #fff;
+    color: #fff
   }
   
   .ubicacion{
-    color: #fff;
+    color: rgb(201, 29, 29);
     font-size: 20px;
     margin-top: 35px;
     font-weight: 800;
