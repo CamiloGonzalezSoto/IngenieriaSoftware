@@ -4,9 +4,9 @@ from .views import index, ingresoSalida, mandatos, signInDonadores, signInFuncio
 
 urlpatterns = [
     path('',index, name ='index'),
-    path('ingresoSalida',ingresoSalida, name='ingresoSalida'),
     path('mandatos',mandatos, name='mandatos'),
     path('signInDonadores',signInDonadores, name='signInDonadores'),
     path('signInFuncionarios',signInFuncionarios, name='signInFuncionarios'),
     path('signUp',signUp, name='signUp'),
+    path('ingresoSalida',ingresoSalida, name='ingresoSalida'),
 ]
