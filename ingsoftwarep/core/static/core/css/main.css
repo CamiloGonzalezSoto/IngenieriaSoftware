@@ -80,13 +80,7 @@ background-color:antiquewhite;
 
 
 
-.forum-Registro p {
-   height: 40px;
-   text-align: center;
-   font-size: 18px;
-   line-height: 40px;
-  color: aqua;
-  }
+
 
 .forum-Registro a {
    color: rgb(16, 56, 189);
@@ -171,11 +165,11 @@ font-size: 16px;
   }
 
   .titulo-contacto{
-    color: rgb(105, 13, 13);
+    color: rgb(241, 237, 237);
   }
   
   .correo-contacto{
-    color: #fff;
+    color: rgb(219, 231, 221);
   }
   
   .Ubicacion{
